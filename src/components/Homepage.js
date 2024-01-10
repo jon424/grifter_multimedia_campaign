@@ -65,7 +65,7 @@ const Homepage = () => {
               alt="Album artwork of Duo in Concert by Derek Bailey / Paul Motian"
             />
             <h4>
-              <a href="#">Duo in Concert</a>
+              <Link to="/wobble">Duo in Concert</Link>
             </h4>
             <p>Derek Bailey / Paul Motian</p>
           </div>

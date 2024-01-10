@@ -4,6 +4,7 @@ import Homepage from './components/Homepage';
 import Review from './components/Review';
 import TypingPage from './components/TypingPage';
 import BoxAnimation from './components/BoxAnimation';
+import Wobbly from './components/Wobbly';
 // import './App.css'; // Make sure to import your CSS file
 
 const AppContent = () => {
@@ -17,6 +18,7 @@ const AppContent = () => {
         <Route path="/review" element={ <Review /> } />
         <Route path="/typing" element={ <TypingPage /> } />
         <Route path="/box" element={ <BoxAnimation /> } />
+        <Route path="/wobble" element={ <Wobbly /> } />
       </Routes>
     </div>
   );
